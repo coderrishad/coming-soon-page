@@ -1,0 +1,117 @@
+/* Global css  start*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+/* Global css end*/
+
+
+/* Coming soon area css start */
+
+.coming-soon-area{
+    background-image: linear-gradient(#000000bf, #000000bf), url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    padding: 5px 0px;
+}
+.container{
+    margin: auto;
+    text-align: center;
+}
+.cs-content{
+    max-width: 760px;
+    margin: auto;
+    padding: 25px 30px;
+}
+.site-logo{
+    margin: 22px 0px;
+}
+.site-logo a{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.site-logo a span{
+    color: #FA5B0F
+}
+.cs-content h1{
+    font-size: 72px;
+    font-weight: 900;
+
+}
+.cs-content p{
+    margin: 10px 35px;
+}
+.form{
+    margin: 50px 0px;
+}
+.form input{
+    background: #ffffff85;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    margin: 5px 0px;
+    padding: 20px;
+    width: 67%;
+    border-radius: 5px;
+}
+.email-field::placeholder{
+    color: #fff;
+}
+.form input[type="submit"]{
+    width: 120px;
+    background: #FA5B0F;
+    color: #fff;
+    cursor: pointer;
+}
+.countdown-timer{
+    margin: 35px 0px;
+}
+.timer-item{
+    display: inline-block;
+    background: #FA5B0F;
+    margin: 5px 3px;
+    padding: 20px;
+    min-width: 140px;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.timer-item span{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Coming soon area css end */
+
+
+/* Responsive css start */
+
+@media screen and (max-width: 767px){
+    .site-logo{
+        margin-bottom: 50px;
+    }
+    .cs-content h1{
+        font-size: 50px;
+    }
+    .cs-content p{
+        line-height: 26px;
+        margin: 10px 0px;
+    }
+    .form input[type="email"]{
+        width: 100%;
+    }
+}
